@@ -32,3 +32,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.darker .material-parallax {
+    filter: brightness(60%);
+}
