@@ -83,28 +83,30 @@
 
     <div id="intro1" data-type="anchor">
       <!--Header Section-->
-      <section class="section section-top-85">
-        <img src="images/shuga-banner.png" style="width: 100%;" alt="">
+      <section class="section section-top-85 signUpTopSection">
+        <!--Image-->
       </section>
     </div>
 
-    <div id="signUp" data-type="anchor" style="margin-top: -100px;">
+    <div id="signUp" data-type="anchor" style="margin-top: -160px;">
       <!-- Sign Up -->
       <section class="section-bottom-20">
         <div class="shell">
           <div class="range range-xs-center range-xs-center">
-            <div class="cell-sm-7 offset-top-66 offset-bottom-66 offset-lg-top-0"
-                 style="border-radius: 20px;background-color: #ffffff;box-shadow: -1px 2px 7px 0 rgba(95, 73, 123, 0.5);">
+            <div class="cell-sm-8 offset-top-66 offset-bottom-66 offset-lg-top-0 inset-xs-left-20 inset-xs-right-20 inset-md-left-115 inset-md-right-115 signUpForm">
               <h3 class="offset-top-20 text-bold text-center">Sign Up</h3>
+              <p class="text-left offset-top-24">
+                Retailers interested in adding to our Shuga® recipe can use the contact us form below and we’ll be in touch within the day!
+              </p>
               <!-- RD Mailform-->
               <form data-form-output="form-output-global" data-form-type="contact" method="post"
-                    action="//localhost:3001/user/signUp" class="rd-mailform text-left" novalidate="novalidate">
+                    action="//localhost:3001/user/signUp" class="rd-mailform text-left offset-top-30" novalidate="novalidate">
                 <div class="range">
                   <div class="cell-lg-12">
                     <div class="form-group">
                       <label for="name" class="form-label form-label-outside rd-input-label">Name</label>
                       <input id="name" type="text" name="name" data-constraints="@Required"
-                             class="form-control form-control-has-validation form-control-last-child"><span
+                             class="form-control form-control-has-validation"><span
                         class="form-validation"></span>
                     </div>
                   </div>
@@ -113,7 +115,7 @@
                       <label for="phone" class="form-label form-label-outside rd-input-label">Phone</label>
                       <input id="phone" type="text" name="phone" data-constraints="@Required"
                              placeholder="Your Phone number"
-                             class="form-control form-control-has-validation form-control-last-child">
+                             class="form-control form-control-has-validation">
                       <span class="form-validation"></span>
                     </div>
                   </div>
@@ -123,25 +125,54 @@
                         Name</label>
                       <input id="companyName" type="text" name="companyName" data-constraints="@Required"
                              placeholder="Your Company Name"
-                             class="form-control form-control-has-validation form-control-last-child">
+                             class="form-control form-control-has-validation">
                       <span class="form-validation"></span>
                     </div>
                   </div>
                   <div class="cell-lg-12 offset-top-20">
                     <div class="form-group">
                       <label for="industry" class="form-label form-label-outside rd-input-label">Industry</label>
-                      <input id="industry" type="text" name="industry" data-constraints="@Required"
-                             placeholder="Your Company Name"
-                             class="form-control form-control-has-validation form-control-last-child">
+                      <select class="form-control select-filter" id="industry" name="industry"
+                              onchange="checkIndustry()"
+                              data-placeholder="Select industry" data-minimum-results-for-search="Infinity">
+                        <option value="Fashion & Accessories">Fashion & Accessories</option>
+                        <option value="Petrol">Petrol</option>
+                        <option value="Electronics Devices">Electronics Devices</option>
+                        <option value="Electronics Accessories">Electronics Accessories</option>
+                        <option value="Baby & Toys">Baby & Toys</option>
+                        <option value="Home & Applicances">Home & Applicances</option>
+                        <option value="Health & Beauty">Health & Beauty</option>
+                        <option value="Food & beverage">Food & beverage</option>
+                        <option value="Grocery">Grocery</option>
+                        <option value="Sports & Outdoors">Sports & Outdoors</option>
+                        <option value="Pets">Pets</option>
+                        <option value="Automobiles & Accessories">Automobiles & Accessories</option>
+                        <option value="Hardware">Hardware</option>
+                        <option value="Others">Others</option>
+                      </select>
+                      <input id="industryOther" type="text" name="industryOther" data-constraints=""
+                             placeholder="Your Industry"
+                             class="form-control offset-top-20 hide">
                       <span class="form-validation"></span>
                     </div>
                   </div>
                   <div class="cell-lg-12 offset-top-20">
                     <div class="form-group">
                       <label for="store" class="form-label form-label-outside rd-input-label">Store</label>
-                      <input id="store" type="text" name="store" data-constraints="@Required"
-                             placeholder="Your Company Name"
-                             class="form-control form-control-has-validation form-control-last-child">
+                      <select class="form-control select-filter" id="store" name="store"
+                              data-placeholder="Select store no." data-minimum-results-for-search="Infinity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="10+">10+</option>
+                      </select>
                       <span class="form-validation"></span>
                     </div>
                   </div>
@@ -157,9 +188,10 @@
                 </div>
                 <div class="group-sm text-center offset-top-30 offset" style="margin-bottom: 30px">
                   <button class="btn btn-ellipse" type="submit"
-                          style="margin-top:21px; color: #ffffff; background-color: #ea3173">
+                          style="color: #ffffff; background-color: #ea3173">
                     　　　Submit　　　
                   </button>
+                  <button type="reset" class="btn btn-default btn-ellipse">Reset</button>
                 </div>
               </form>
             </div>
@@ -217,5 +249,16 @@
 <!-- JavaScript-->
 <script src="js/core.min.js"></script>
 <script src="js/script.js"></script>
+<script>
+    function checkIndustry() {
+        var industrySelector = document.getElementById('industry');
+        var industryOtherInput = document.getElementById('industryOther');
+        if (industrySelector.value === 'Others') {
+            industryOtherInput.className = industryOtherInput.className.replace(' hide', '');
+        } else {
+            industryOtherInput.className = industryOtherInput.className.concat(' hide');
+        }
+    }
+</script>
 </body>
 </html>

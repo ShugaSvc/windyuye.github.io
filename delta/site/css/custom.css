@@ -6,8 +6,29 @@
     align-items: center;
     background-color: #f4f4f4;
 }
+
 .logoImg {
     width: 160px;
     height: 160px;
     background-color: #ffffff;
+}
+
+.aboutUsTeamImg {
+    height: 300px;
+    background-image: url('../images/stock-photo-business-owner-with-bakery-shop-background-447252268.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signUpForm {
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: -1px 2px 7px 0 rgba(95, 73, 123, 0.5);
+}
+
+.signUpTopSection {
+    height: 350px;
+    background-image: url('../images/stock-photo-singapore-circa-aug-luxury-expensive-brands-shops-promenade-and-customer-inside-of-modern-704853832.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
