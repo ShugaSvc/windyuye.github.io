@@ -1,0 +1,13 @@
+.partnerLogo {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+.logoImg {
+    width: 160px;
+    height: 160px;
+    background-color: #ffffff;
+}
