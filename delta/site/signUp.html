@@ -87,13 +87,105 @@
         <img src="images/shuga-banner.png" style="width: 100%;" alt="">
       </section>
     </div>
+
+    <div id="signUp" data-type="anchor" style="margin-top: -100px;">
+      <!-- Sign Up -->
+      <section class="section-bottom-20">
+        <div class="shell">
+          <div class="range range-xs-center range-xs-center">
+            <div class="cell-sm-7 offset-top-66 offset-bottom-66 offset-lg-top-0"
+                 style="border-radius: 20px;background-color: #ffffff;box-shadow: -1px 2px 7px 0 rgba(95, 73, 123, 0.5);">
+              <h3 class="offset-top-20 text-bold text-center">Sign Up</h3>
+              <!-- RD Mailform-->
+              <form data-form-output="form-output-global" data-form-type="contact" method="post"
+                    action="//localhost:3001/user/signUp" class="rd-mailform text-left" novalidate="novalidate">
+                <div class="range">
+                  <div class="cell-lg-12">
+                    <div class="form-group">
+                      <label for="name" class="form-label form-label-outside rd-input-label">Name</label>
+                      <input id="name" type="text" name="name" data-constraints="@Required"
+                             class="form-control form-control-has-validation form-control-last-child"><span
+                        class="form-validation"></span>
+                    </div>
+                  </div>
+                  <div class="cell-lg-12 offset-top-20">
+                    <div class="form-group">
+                      <label for="phone" class="form-label form-label-outside rd-input-label">Phone</label>
+                      <input id="phone" type="text" name="phone" data-constraints="@Required"
+                             placeholder="Your Phone number"
+                             class="form-control form-control-has-validation form-control-last-child">
+                      <span class="form-validation"></span>
+                    </div>
+                  </div>
+                  <div class="cell-lg-12 offset-top-20">
+                    <div class="form-group">
+                      <label for="companyName" class="form-label form-label-outside rd-input-label">Company
+                        Name</label>
+                      <input id="companyName" type="text" name="companyName" data-constraints="@Required"
+                             placeholder="Your Company Name"
+                             class="form-control form-control-has-validation form-control-last-child">
+                      <span class="form-validation"></span>
+                    </div>
+                  </div>
+                  <div class="cell-lg-12 offset-top-20">
+                    <div class="form-group">
+                      <label for="industry" class="form-label form-label-outside rd-input-label">Industry</label>
+                      <input id="industry" type="text" name="industry" data-constraints="@Required"
+                             placeholder="Your Company Name"
+                             class="form-control form-control-has-validation form-control-last-child">
+                      <span class="form-validation"></span>
+                    </div>
+                  </div>
+                  <div class="cell-lg-12 offset-top-20">
+                    <div class="form-group">
+                      <label for="store" class="form-label form-label-outside rd-input-label">Store</label>
+                      <input id="store" type="text" name="store" data-constraints="@Required"
+                             placeholder="Your Company Name"
+                             class="form-control form-control-has-validation form-control-last-child">
+                      <span class="form-validation"></span>
+                    </div>
+                  </div>
+                  <div class="cell-lg-12 offset-top-20">
+                    <div class="form-group">
+                      <label for="email" class="form-label form-label-outside rd-input-label">Email</label>
+                      <input id="email" type="email" name="email" data-constraints="@Required @Email"
+                             placeholder="Email"
+                             class="form-control form-control-has-validation form-control-last-child">
+                      <span class="form-validation"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="group-sm text-center offset-top-30 offset" style="margin-bottom: 30px">
+                  <button class="btn btn-ellipse" type="submit"
+                          style="margin-top:21px; color: #ffffff; background-color: #ea3173">
+                    　　　Submit　　　
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </header>
 
   <!-- Page Contents-->
   <main class="page-content">
-    <div id="signUp" data-type="anchor">
-      <!-- Sign Up -->
-      singup
+    <div>
+      <section class="section-bottom-66">
+        <div class="shell">
+          <div class="range range-sm-center text-lg-center">
+            <div class="cell-sm-6 cell-lg-6 cell-lg-pull-6 offset-top-30 offset-lg-top-0">
+              <div class="inset-lg-right-20 text-left">
+                <p>
+                  If you prefer to email us.
+                  Kindly send your enquiries to <a href="mailto:shuga@shuga.com">shuga@shuga.com</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </main>
 

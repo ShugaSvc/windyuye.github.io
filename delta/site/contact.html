@@ -93,7 +93,42 @@
   <main class="page-content">
     <div id="contact" data-type="anchor">
       <!-- contact -->
-      contact
+      <section class="section-98 section-md-110 text-lg-left">
+        <div class="shell">
+          <div class="range range-xs-center range-xs-center">
+            <div class="cell-sm-12 offset-top-66 offset-lg-top-0">
+              <h3 class="text-uppercase text-bold">Contact Us</h3>
+              <!-- RD Mailform-->
+              <form data-form-output="form-output-global" data-form-type="contact" method="post" action="//localhost:3001/user/contactUs" class="rd-mailform text-left" novalidate="novalidate">
+                <div class="range">
+                  <div class="cell-lg-6">
+                    <div class="form-group">
+                      <label for="name" class="form-label form-label-outside rd-input-label">Name:</label>
+                      <input id="name" type="text" name="name" data-constraints="@Required" class="form-control form-control-has-validation form-control-last-child"><span class="form-validation"></span>
+                    </div>
+                  </div>
+                  <div class="cell-lg-6 offset-top-20 offset-lg-top-0">
+                    <div class="form-group">
+                      <label for="email" class="form-label form-label-outside rd-input-label">E-Mail:</label>
+                      <input id="email" type="email" name="email" data-constraints="@Required @Email" class="form-control form-control-has-validation form-control-last-child"><span class="form-validation"></span>
+                    </div>
+                  </div>
+                  <div class="cell-lg-12 offset-top-20">
+                    <div class="form-group">
+                      <label for="message" class="form-label form-label-outside rd-input-label">Message:</label>
+                      <textarea id="message" name="message" data-constraints="@Required" class="form-control form-control-has-validation form-control-last-child"></textarea><span class="form-validation"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="group-sm text-center text-lg-left offset-top-30">
+                  <button type="submit" class="btn btn-primary">Send</button>
+                  <button type="reset" class="btn btn-default">Reset</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </main>
 
