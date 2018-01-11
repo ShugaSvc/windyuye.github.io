@@ -1,3 +1,7 @@
+.rd-navbar-default.rd-navbar-transparent.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-nav > li a {
+    color: #333333
+}
+
 .partnerLogo {
     /*width: 180px;*/
     /*height: 180px;*/
@@ -28,6 +32,8 @@
     border-radius: 20px;
     background-color: #ffffff;
     box-shadow: -1px 2px 7px 0 rgba(95, 73, 123, 0.5);
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 .signUpTopSection {
@@ -35,6 +41,15 @@
     background-image: url('../images/stock-photo-singapore-circa-aug-luxury-expensive-brands-shops-promenade-and-customer-inside-of-modern-704853832.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+}
+
+.howItWorkTopSection {
+    height: 350px;
+    background-image: url('../images/shuga-info-banner@3x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .darker .material-parallax {
