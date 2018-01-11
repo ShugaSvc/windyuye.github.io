@@ -1,10 +1,14 @@
 .partnerLogo {
-    width: 180px;
-    height: 180px;
+    /*width: 180px;*/
+    /*height: 180px;*/
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f4f4f4;
+    /*background-color: #f4f4f4;*/
+}
+
+.partnerLogo .logoImg {
+    border: solid 14px #f4f4f4;
 }
 
 .logoImg {
