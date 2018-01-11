@@ -2,6 +2,14 @@
     color: #333333
 }
 
+.rd-navbar-default.rd-navbar-static .rd-navbar-brand img {
+    filter: brightness(300%);
+}
+
+.rd-navbar-default.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-brand img {
+    filter: brightness(100%);
+}
+
 .partnerLogo {
     display: flex;
     justify-content: center;
