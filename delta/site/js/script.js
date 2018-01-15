@@ -2309,7 +2309,7 @@ $document.ready(function () {
 	 * @description Enables Material Parallax plugin
 	 */
 	if (plugins.materialParallax.length) {
-		if (!isIE && !isMobile) {
+		if (!isIE) {
 			plugins.materialParallax.parallax();
 		} else {
 			for (var i = 0; i < plugins.materialParallax.length; i++) {
