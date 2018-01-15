@@ -35,12 +35,20 @@
     background-color: #ffffff;
 }
 
-.aboutUsTeamImg {
-    height: 300px;
-    background-image: url('../images/stock-photo-business-owner-with-bakery-shop-background-447252268.jpg');
+.CEOImg {
+    height: 350px;
+    background-image: url('../images/member-6@3x.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.CTOImg {
+    height: 350px;
+    background-image: url('../images/member-5@3x.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .signUpForm {
     border-radius: 20px;
