@@ -1,21 +1,16 @@
-/* Hack About Us page style */
-.rd-navbar-nav.aboutUs > li a {
-    color: #333333;
+.rd-navbar-default.rd-navbar-static .rd-navbar-inner {
+    background-color: #ffffff;
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-nav > li a {
-    color: #333333
+    color: #333333;
 }
 
-.rd-navbar-default.rd-navbar-static .rd-navbar-brand img {
-    filter: brightness(300%);
+.rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-nav > li a {
+    color: #333333;
 }
 
-.rd-navbar-default.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-brand img {
-    filter: brightness(100%);
-}
-
-.section-while-mobile {
+.section-padding-box {
     height: 50px;
 }
 
@@ -49,6 +44,13 @@
     background-size: cover;
 }
 
+q:before {
+    font-size: 150%;
+}
+
+q:after {
+    font-size: 150%;
+}
 
 .signUpForm {
     border-radius: 20px;
