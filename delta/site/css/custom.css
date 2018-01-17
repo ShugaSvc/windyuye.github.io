@@ -68,14 +68,6 @@ q:after {
     background-position: center;
 }
 
-.howItWorkTopSection {
-    height: 350px;
-    background-image: url('../images/shuga-info-banner@3x.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
 .darker .material-parallax {
     filter: brightness(80%);
 }
