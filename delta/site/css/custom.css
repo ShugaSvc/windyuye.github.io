@@ -48,10 +48,12 @@
 
 q:before {
     font-size: 150%;
+    line-height: 0;
 }
 
 q:after {
     font-size: 150%;
+    line-height: 0;
 }
 
 .signUpForm {
