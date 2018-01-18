@@ -10,6 +10,10 @@
     color: #333333;
 }
 
+.rd-navbar-default.rd-navbar-fixed .rd-navbar-toggle span:after, .rd-navbar-floated.rd-navbar-fixed .rd-navbar-toggle span:after, .rd-navbar-top-panel.rd-navbar-fixed .rd-navbar-toggle span:after, .rd-navbar-logo-center.rd-navbar-fixed .rd-navbar-toggle span:after, .rd-navbar-default.rd-navbar-fixed .rd-navbar-toggle span:before, .rd-navbar-floated.rd-navbar-fixed .rd-navbar-toggle span:before, .rd-navbar-top-panel.rd-navbar-fixed .rd-navbar-toggle span:before, .rd-navbar-logo-center.rd-navbar-fixed .rd-navbar-toggle span:before, .rd-navbar-default.rd-navbar-fixed .rd-navbar-toggle span, .rd-navbar-floated.rd-navbar-fixed .rd-navbar-toggle span, .rd-navbar-top-panel.rd-navbar-fixed .rd-navbar-toggle span, .rd-navbar-logo-center.rd-navbar-fixed .rd-navbar-toggle span {
+    background-color: #615199;
+}
+
 .section-padding-box {
     height: 50px;
 }
