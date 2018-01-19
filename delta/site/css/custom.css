@@ -66,13 +66,23 @@
     height: 465px;
 }
 
-.testimonials span {
+.testimonials span.preQuota {
     font-size: 200%;
     font-weight: bold;
     line-height: 0;
 
     position: absolute;
-    left: -10px;
+    left: -13px;
+    top: -6px;
+}
+
+.testimonials span.postQuota {
+    font-size: 200%;
+    font-weight: bold;
+    line-height: 0;
+
+    position: absolute;
+    left: -7px;
     top: -6px;
 }
 
