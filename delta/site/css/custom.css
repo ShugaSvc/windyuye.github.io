@@ -66,16 +66,19 @@
     height: 465px;
 }
 
-q:before {
-    font-size: 150%;
-    line-height: 0;
+.testimonials span {
+    font-size: 200%;
     font-weight: bold;
+    line-height: 0;
+
+    position: absolute;
+    left: -10px;
+    top: -6px;
 }
 
-q:after {
-    font-size: 150%;
-    line-height: 0;
-    font-weight: bold;
+.testimonials div {
+    display: inline-block;
+    position: relative;
 }
 
 .signUpForm {
