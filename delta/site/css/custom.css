@@ -50,6 +50,22 @@
     background-position: center;
 }
 
+.aboutUsBanner {
+    background-image: url('../images/banner-ABOUT.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+}
+
+.aboutUsMobileBanner {
+    background-image: url('../images/banner-about-m.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 30%;
+    height: 465px;
+}
+
 q:before {
     font-size: 150%;
     line-height: 0;
