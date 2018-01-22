@@ -110,3 +110,13 @@
 .darker .material-parallax {
     filter: brightness(80%);
 }
+
+.responsive-tabs .resp-accordion {
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+.responsive-tabs .resp-accordion.resp-tab-active {
+    color: #615199;
+}
