@@ -1838,6 +1838,7 @@ $document.ready(function () {
 	if (plugins.rdMailForm.length) {
 		var i, j, k,
 			msg = {
+				'OK': 'We have received your submission. Our sales team will contact you shortly.',
 				'MF000': 'Successfully sent!',
 				'MF001': 'Recipients are not set!',
 				'MF002': 'Form will not work locally!',
@@ -1943,10 +1944,11 @@ $document.ready(function () {
 						grecaptcha.reset();
 					}
 
-					result = result.length === 5 ? result : 'MF255';
+					// result = result.length === 5 ? result : 'MF255';
+                    result = (result.length === 5 || result.length === 2) ? result : 'MF255';
 					output.text(msg[result]);
 
-					if (result === "MF000") {
+					if (result === "MF000" || result === "OK") {
 						if (output.hasClass("snackbars")) {
 							output.html('<p><span class="icon text-middle mdi mdi-check icon-xxs"></span><span>' + msg[result] + '</span></p>');
 						} else {
@@ -1960,7 +1962,7 @@ $document.ready(function () {
 						}
 					}
 
-					form.clearForm();
+					// form.clearForm();
 
 					if (select.length) {
 						select.select2("val", "");

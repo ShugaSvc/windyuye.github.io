@@ -10,6 +10,10 @@
     color: #333333;
 }
 
+.rd-navbar-default.rd-navbar-fixed .rd-navbar-toggle span:after, .rd-navbar-floated.rd-navbar-fixed .rd-navbar-toggle span:after, .rd-navbar-top-panel.rd-navbar-fixed .rd-navbar-toggle span:after, .rd-navbar-logo-center.rd-navbar-fixed .rd-navbar-toggle span:after, .rd-navbar-default.rd-navbar-fixed .rd-navbar-toggle span:before, .rd-navbar-floated.rd-navbar-fixed .rd-navbar-toggle span:before, .rd-navbar-top-panel.rd-navbar-fixed .rd-navbar-toggle span:before, .rd-navbar-logo-center.rd-navbar-fixed .rd-navbar-toggle span:before, .rd-navbar-default.rd-navbar-fixed .rd-navbar-toggle span, .rd-navbar-floated.rd-navbar-fixed .rd-navbar-toggle span, .rd-navbar-top-panel.rd-navbar-fixed .rd-navbar-toggle span, .rd-navbar-logo-center.rd-navbar-fixed .rd-navbar-toggle span {
+    background-color: #615199;
+}
+
 .section-padding-box {
     height: 50px;
 }
@@ -46,14 +50,45 @@
     background-position: center;
 }
 
-q:before {
-    font-size: 150%;
-    line-height: 0;
+.aboutUsBanner {
+    background-image: url('../images/banner-about@3x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
 }
 
-q:after {
-    font-size: 150%;
+.aboutUsMobileBanner {
+    background-image: url('../images/banner-about-m@3x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 30%;
+    height: 465px;
+}
+
+.testimonials span.preQuota {
+    font-size: 200%;
+    font-weight: bold;
     line-height: 0;
+
+    position: absolute;
+    left: -13px;
+    top: -6px;
+}
+
+.testimonials span.postQuota {
+    font-size: 200%;
+    font-weight: bold;
+    line-height: 0;
+
+    position: absolute;
+    left: -7px;
+    top: -6px;
+}
+
+.testimonials div {
+    display: inline-block;
+    position: relative;
 }
 
 .signUpForm {
@@ -74,4 +109,14 @@ q:after {
 
 .darker .material-parallax {
     filter: brightness(80%);
+}
+
+.responsive-tabs .resp-accordion {
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+.responsive-tabs .resp-accordion.resp-tab-active {
+    color: #615199;
 }
