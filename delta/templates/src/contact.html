@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html class="wide wow-animation scrollTo smoothscroll" lang="en">
+<head>
+  <!-- Site Title-->
+  <title>Shuga</title>
+  <meta charset="utf-8">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport"
+        content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="keywords" content="shuga candie footsteps shopping rewards ">
+  <meta property="og:url" content="https://www.shuga.io/">
+  <meta property="og:title" content="Shuga">
+  <meta property="og:image" content="https://www.shuga.io/images/shuga-banner@3x.png">
+  <meta property="og:description" content="Turn your footsteps into shopping rewards">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <!-- Stylesheets-->
+  <link rel="stylesheet" type="text/css"
+        href="//fonts.googleapis.com/css?family=Montserrat:400,700%7CLato:300,300italic,400,700,900%7CYesteryear">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <!--[if lt IE 10]>
+  <div
+      style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;">
+    <a href="http://windows.microsoft.com/en-US/internet-explorer/">
+      <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today.">
+    </a>
+  </div>
+  <script src="js/html5shiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<!-- Page-->
+<div class="page text-center">
+  <!-- Page Head-->
+  @@include('../modules/header.html')
+
+  <!-- Page Contents-->
+  <main class="page-content">
+    <div id="contact" data-type="anchor">
+      <!-- contact -->
+      <section class="section-98 section-md-110 text-lg-left">
+        <div class="shell">
+          <div class="range range-xs-center range-xs-center">
+            <div class="cell-sm-12 offset-top-66 offset-lg-top-0">
+              <h3 class="text-uppercase text-bold">Contact Us</h3>
+              <!-- RD Mailform-->
+              <form data-form-output="form-output-global" data-form-type="contact" method="post" action="https://api-stg.shuga.io/user/contactUs" class="rd-mailform text-left" novalidate="novalidate">
+                <div class="range">
+                  <div class="cell-lg-6">
+                    <div class="form-group">
+                      <label for="name" class="form-label form-label-outside rd-input-label">Name:</label>
+                      <input id="name" type="text" name="name" data-constraints="@Required" class="form-control form-control-has-validation form-control-last-child"><span class="form-validation"></span>
+                    </div>
+                  </div>
+                  <div class="cell-lg-6 offset-top-20 offset-lg-top-0">
+                    <div class="form-group">
+                      <label for="email" class="form-label form-label-outside rd-input-label">E-Mail:</label>
+                      <input id="email" type="email" name="email" data-constraints="@Required @Email" class="form-control form-control-has-validation form-control-last-child"><span class="form-validation"></span>
+                    </div>
+                  </div>
+                  <div class="cell-lg-12 offset-top-20">
+                    <div class="form-group">
+                      <label for="message" class="form-label form-label-outside rd-input-label">Message:</label>
+                      <textarea id="message" name="message" data-constraints="@Required" class="form-control form-control-has-validation form-control-last-child"></textarea><span class="form-validation"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="group-sm range-center text-center offset-top-30">
+                  <button type="submit" class="btn btn-ellipse" style="color: #ffffff; background-color: #ea3173">Send</button>
+                  <button type="reset" class="btn btn-default btn-ellipse">Reset</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Page Footer-->
+  <!-- Default footer-->
+  @@include('../modules/footer.html')
+</div>
+<!-- JavaScript-->
+<script src="js/core.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
