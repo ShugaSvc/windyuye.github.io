@@ -3,6 +3,7 @@ var fileinclude = require('gulp-file-include');
 var del = require('del');
 var runSequence = require('run-sequence');
 var sitemap = require('gulp-sitemap');
+var fetch = require('node-fetch');
 
 gulp.task('build', function (cb) {
     runSequence('copy-files', 'compile-template', 'build-sitemap', cb);
@@ -36,6 +37,22 @@ gulp.task('compile-template', function() {
         .pipe(fileinclude())
         .pipe(gulp.dest('./delta/dist/'));
 });
+
+gulp.task('build-redeem-product', function() {
+    fetchRedeemProducts().then(function(redeemProducts) {
+        redeemProducts.results.map(function(redeemProduct) {
+            console.log(redeemProduct.name);
+        });
+    });
+});
+
+var fetchRedeemProducts = function() {
+    return fetch('https://api.shuga.io/redeemProduct?page=0&pageSize=1000').then(function(res) {
+        return res.json();
+    }).then(function (json) {
+        return json;
+    });
+}
 
 gulp.task('copy-files', function() {
     gulp.src(['./delta/templates/src/**/*', "!./delta/templates/src/*"])
