@@ -51,7 +51,7 @@
 }
 
 .aboutUsBanner {
-    background-image: url('../images/banner-about@3x.png');
+    background-image: url('../images/banner-about@2x.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -59,7 +59,7 @@
 }
 
 .aboutUsMobileBanner {
-    background-image: url('../images/banner-about-m@3x.png');
+    background-image: url('../images/banner-about-m@2x.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 30%;
