@@ -66,6 +66,22 @@
     height: 465px;
 }
 
+.rewardsBanner {
+    background-image: url('../images/banner-rewards@2x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 350px;
+}
+
+.rewardsMobileBanner {
+    background-image: url('../images/banner-rewards.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 30%;
+    height: 350px;
+}
+
 .testimonials span.preQuota {
     font-size: 200%;
     font-weight: bold;
