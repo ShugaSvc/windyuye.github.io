@@ -123,6 +123,13 @@
     background-position: center;
 }
 
+.icon_shuga {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    margin-right: 3px;
+}
+
 .darker .material-parallax {
     filter: brightness(80%);
 }
@@ -135,10 +142,4 @@
 
 .responsive-tabs .resp-accordion.resp-tab-active {
     color: #615199;
-}
-
-@media (min-width: 1200px) {
-    html .page .offset-bottom-20 {
-        margin-bottom: 20px;
-    }
 }

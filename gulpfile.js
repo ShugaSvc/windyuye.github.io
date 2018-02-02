@@ -43,6 +43,11 @@ gulp.task('build-rewards', function() {
     fetchRedeemProducts().then(function(redeemProducts) {
         redeemProducts.results.map(function(redeemProduct) {
             // console.log(redeemProduct.name);
+            var originalShuga = Number(redeemProduct.price) * 200;
+            var shuga = Number(redeemProduct.shuga);
+            redeemProduct.originalShuga = originalShuga !== shuga ? toNumberWithCommas(originalShuga) : null;
+            redeemProduct.price = toNumberWithCommas(redeemProduct.price);
+            redeemProduct.shuga = toNumberWithCommas(redeemProduct.shuga);
             gulp.src(['./delta/templates/modules/rewardItem.html'])
                 .pipe(fileinclude({
                     context: {
@@ -54,6 +59,10 @@ gulp.task('build-rewards', function() {
         });
     });
 });
+
+function toNumberWithCommas(number) {
+    return number ? number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") : "0";
+}
 
 var fetchRedeemProducts = function() {
     return fetch('https://api.shuga.io/redeemProduct?page=0&pageSize=1000').then(function(res) {
