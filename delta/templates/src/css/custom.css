@@ -136,3 +136,9 @@
 .responsive-tabs .resp-accordion.resp-tab-active {
     color: #615199;
 }
+
+@media (min-width: 1200px) {
+    html .page .offset-bottom-20 {
+        margin-bottom: 20px;
+    }
+}

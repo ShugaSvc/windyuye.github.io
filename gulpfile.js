@@ -4,6 +4,7 @@ var del = require('del');
 var runSequence = require('run-sequence');
 var sitemap = require('gulp-sitemap');
 var fetch = require('node-fetch');
+var rename = require('gulp-rename');
 
 gulp.task('build', function (cb) {
     runSequence('copy-files', 'compile-template', 'build-sitemap', cb);
@@ -29,19 +30,27 @@ gulp.task('build-sitemap', function () {
                 }
             ]
         }))
-        .pipe(gulp.dest('./delta/dist/'));
+        .pipe(gulp.dest('./delta/dist/', {overwrite: true}));
 });
 
 gulp.task('compile-template', function() {
     gulp.src(['./delta/templates/src/*.html'])
         .pipe(fileinclude())
-        .pipe(gulp.dest('./delta/dist/'));
+        .pipe(gulp.dest('./delta/dist/', {overwrite: true}));
 });
 
-gulp.task('build-redeem-product', function() {
+gulp.task('build-rewards', function() {
     fetchRedeemProducts().then(function(redeemProducts) {
         redeemProducts.results.map(function(redeemProduct) {
-            console.log(redeemProduct.name);
+            // console.log(redeemProduct.name);
+            gulp.src(['./delta/templates/modules/rewardItem.html'])
+                .pipe(fileinclude({
+                    context: {
+                        reward: redeemProduct
+                    }
+                }))
+                .pipe(rename(redeemProduct.id + '.html'))
+                .pipe(gulp.dest('./delta/dist/products/', {overwrite: true}));
         });
     });
 });
@@ -56,7 +65,7 @@ var fetchRedeemProducts = function() {
 
 gulp.task('copy-files', function() {
     gulp.src(['./delta/templates/src/**/*', "!./delta/templates/src/*"])
-        .pipe(gulp.dest('./delta/dist/'));
+        .pipe(gulp.dest('./delta/dist/', {overwrite: true}));
 });
 
 gulp.task('clean', function () {
