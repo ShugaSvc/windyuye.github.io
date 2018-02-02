@@ -143,3 +143,12 @@
 .responsive-tabs .resp-accordion.resp-tab-active {
     color: #615199;
 }
+
+.rewardList .rewardDescription {
+    display: none;
+}
+
+.rewardList .rewardSpec {
+    display: none;
+}
+

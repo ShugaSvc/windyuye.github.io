@@ -5,7 +5,9 @@
     <img class="img-responsive product-image-area" style="max-height: 193px" src="@@reward.imageUrl" alt="@@reward.name"/>
   </div>
   <!-- Product Title-->
-  <h5 class="product-title offset-top-20" style="font-size: 18px"><a href="#">@@reward.name</a></h5>
+  <h5 class="product-title offset-top-20" style="font-size: 18px">
+    <a href="#" data-toggle="modal" data-target="#myModal" onclick="test('@@reward.htmlUrl')">@@reward.name</a>
+  </h5>
   <!-- Product price-->
   <div class="product-price text-bold offset-top-10" style="font-size: 14px; font-weight: normal; color: #999999">
     <span>$@@reward.price</span>
@@ -21,4 +23,13 @@
   <div class="product-price text-bold" style="font-size: 14px; font-weight: normal">
     <img src="images/ic-shuga.svg" class="icon_shuga"><span>@@reward.shuga</span>
   </div>
+
+  <div class="post-body text-left offset-top-20 rewardSpec" style="width: 100%">
+    @@reward.shortDescription
+  </div>
+
+  <div class="post-body text-left rewardDescription">
+    @@reward.description
+  </div>
+
 </div>

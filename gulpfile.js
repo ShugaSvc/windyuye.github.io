@@ -48,6 +48,7 @@ gulp.task('build-rewards', function() {
             redeemProduct.originalShuga = originalShuga !== shuga ? toNumberWithCommas(originalShuga) : null;
             redeemProduct.price = toNumberWithCommas(redeemProduct.price);
             redeemProduct.shuga = toNumberWithCommas(redeemProduct.shuga);
+            redeemProduct.htmlUrl = 'products/' + redeemProduct.id + '.html';
             gulp.src(['./delta/templates/modules/rewardItem.html'])
                 .pipe(fileinclude({
                     context: {
