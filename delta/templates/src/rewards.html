@@ -81,38 +81,9 @@
       </div>
       <div class="shell rewardList">
         <div class="range range-xs-center offset-lg-top-10" style="margin-bottom: 20px;">
-          <div class="cell-xs-6 cell-sm-5 cell-md-3 offset-top-41 offset-xs-top-0">
-            <!-- Product-->
-            @@include('../../dist/products/12.html')
-          </div>
-          <div class="cell-xs-6 cell-sm-5 cell-md-3 offset-top-41 offset-xs-top-0">
-            <!-- Product-->
-            @@include('../../dist/products/3.html')
-          </div>
-          <div class="cell-xs-6 cell-sm-5 cell-md-3 offset-top-41 offset-md-top-0">
-            <!-- Product-->
-            @@include('../../dist/products/4.html')
-          </div>
-          <div class="cell-xs-6 cell-sm-5 cell-md-3 offset-top-41 offset-md-top-0">
-            <!-- Product-->
-            @@include('../../dist/products/5.html')
-          </div>
-          <div class="cell-xs-6 cell-sm-5 cell-md-3">
-            <!-- Product-->
-            @@include('../../dist/products/6.html')
-          </div>
-          <div class="cell-xs-6 cell-sm-5 cell-md-3 offset-top-41 offset-xs-top-0">
-            <!-- Product-->
-            @@include('../../dist/products/7.html')
-          </div>
-          <div class="cell-xs-6 cell-sm-5 cell-md-3 offset-top-41 offset-md-top-0">
-            <!-- Product-->
-            @@include('../../dist/products/14.html')
-          </div>
-          <div class="cell-xs-6 cell-sm-5 cell-md-3 offset-top-41 offset-md-top-0">
-            <!-- Product-->
-            @@include('../../dist/products/15.html')
-          </div>
+          @@for (var i = 0; i < rewardItems.length; i++) {
+            @@include('../../dist/products/`+rewardItems[i]+`.html')
+          }
         </div>
       </div>
     </section>
