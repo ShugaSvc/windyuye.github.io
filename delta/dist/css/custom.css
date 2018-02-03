@@ -144,6 +144,32 @@
     color: #615199;
 }
 
+.modal-body .product-grid:before {
+    border: 0;
+}
+
+.rewardContent {
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.rewardList .rewardContent {
+    margin-top: 10px;
+}
+
+.rewardDescriptions {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.rewardDescriptions img {
+    max-width: 100%;
+}
+
+.rewardList .rewardDescriptions {
+    display: none;
+}
+
 .rewardList .rewardDescription {
     display: none;
 }

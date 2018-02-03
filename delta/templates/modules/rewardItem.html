@@ -1,4 +1,4 @@
-<div class="product product-grid" style="margin-top: 10px">
+<div class="product product-grid rewardContent" onclick="openModal('@@reward.htmlUrl')">
   <!-- Product Image-->
   <div class="product-image"
        style="min-height: 193px; background-color: white; display: flex; align-items: center; justify-content: center">
@@ -6,7 +6,7 @@
   </div>
   <!-- Product Title-->
   <h5 class="product-title offset-top-20" style="font-size: 18px">
-    <a href="#" data-toggle="modal" data-target="#myModal" onclick="test('@@reward.htmlUrl')">@@reward.name</a>
+    <a href="#" data-toggle="modal" data-target="#myModal">@@reward.name</a>
   </h5>
   <!-- Product price-->
   <div class="product-price text-bold offset-top-10" style="font-size: 14px; font-weight: normal; color: #999999">
@@ -24,12 +24,12 @@
     <img src="images/ic-shuga.svg" class="icon_shuga"><span>@@reward.shuga</span>
   </div>
 
-  <div class="post-body text-left offset-top-20 rewardSpec" style="width: 100%">
-    @@reward.shortDescription
+  <div class="rewardDescriptions">
+    <div class="post-body text-left offset-top-20 rewardSpec" style="width: 100%">
+      @@reward.shortDescription
+    </div>
+    <div class="post-body text-left rewardDescription">
+      @@reward.description
+    </div>
   </div>
-
-  <div class="post-body text-left rewardDescription">
-    @@reward.description
-  </div>
-
 </div>
