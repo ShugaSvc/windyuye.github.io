@@ -157,9 +157,25 @@
     margin-top: 10px;
 }
 
-.rewardDescriptions {
-    max-height: 200px;
+@media (min-width: 1200px) {
+    .rewardDescriptions {
+        max-height: 250px;
+        overflow-y: auto;
+    }
+}
+
+.rewardModal {
+    padding-top: 0px;
+    max-height: 75vh;
+}
+
+.scrollModal {
     overflow-y: auto;
+}
+@media (min-width: 1200px) {
+    .scrollModal {
+        overflow-y: visible;
+    }
 }
 
 .rewardDescriptions img {

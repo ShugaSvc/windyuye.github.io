@@ -11,7 +11,7 @@ gulp.task('build', function (cb) {
 });
 
 gulp.task('build-sitemap', function () {
-    return gulp.src('./delta/templates/src/*.html', {read: false})
+    return gulp.src(['./delta/dist/**/*.html'], {read: false})
         .pipe(sitemap({
             siteUrl: 'https://www.shuga.io',
             priority: 0.80,
