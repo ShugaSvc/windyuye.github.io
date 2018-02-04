@@ -66,6 +66,22 @@
     height: 465px;
 }
 
+.rewardsBanner {
+    background-image: url('../images/banner-rewards@2x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 350px;
+}
+
+.rewardsMobileBanner {
+    background-image: url('../images/banner-rewards.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 30%;
+    height: 350px;
+}
+
 .testimonials span.preQuota {
     font-size: 200%;
     font-weight: bold;
@@ -107,6 +123,13 @@
     background-position: center;
 }
 
+.icon_shuga {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    margin-right: 3px;
+}
+
 .darker .material-parallax {
     filter: brightness(80%);
 }
@@ -120,3 +143,54 @@
 .responsive-tabs .resp-accordion.resp-tab-active {
     color: #615199;
 }
+
+.modal-body .product-grid:before {
+    border: 0;
+}
+
+.rewardContent {
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.rewardList .rewardContent {
+    margin-top: 10px;
+}
+
+@media (min-width: 1200px) {
+    .rewardDescriptions {
+        max-height: 250px;
+        overflow-y: auto;
+    }
+}
+
+.rewardModal {
+    padding-top: 0px;
+    max-height: 75vh;
+}
+
+.scrollModal {
+    overflow-y: auto;
+}
+@media (min-width: 1200px) {
+    .scrollModal {
+        overflow-y: visible;
+    }
+}
+
+.rewardDescriptions img {
+    max-width: 100%;
+}
+
+.rewardList .rewardDescriptions {
+    display: none;
+}
+
+.rewardList .rewardDescription {
+    display: none;
+}
+
+.rewardList .rewardSpec {
+    display: none;
+}
+
