@@ -1,6 +1,18 @@
 {
   "short_name": "Shuga",
   "name": "Shuga Reward",
+  "icons": [
+    {
+      "src": "images/shugaX64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "images/shugaX192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
   "prefer_related_applications": true,
   "related_applications": [
     {
