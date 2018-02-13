@@ -3,9 +3,14 @@
   "name": "Shuga Reward",
   "icons": [
     {
-      "src": "images/shugaX64.png",
+      "src": "images/shugaX48.png",
       "type": "image/png",
-      "sizes": "64x64"
+      "sizes": "48X48"
+    },
+    {
+      "src": "images/shugaX96.png",
+      "type": "image/png",
+      "sizes": "96X96"
     },
     {
       "src": "images/shugaX192.png",
