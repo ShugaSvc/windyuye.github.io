@@ -1839,6 +1839,7 @@ $document.ready(function () {
 		var i, j, k,
 			msg = {
 				'OK': 'We have received your submission. Our sales team will contact you shortly.',
+				'OK_CONTACT': 'We have received your submission. Our service team will contact you shortly.',
 				'MF000': 'Successfully sent!',
 				'MF001': 'Recipients are not set!',
 				'MF002': 'Form will not work locally!',
@@ -1947,10 +1948,12 @@ $document.ready(function () {
 					// result = result.length === 5 ? result : 'MF255';
                     result = (result.length === 5 || result.length === 2) ? result : 'MF255';
 					output.text(msg[result]);
+                    var pageName = form.attr("data-page-name");
 
 					if (result === "MF000" || result === "OK") {
 						if (output.hasClass("snackbars")) {
-							output.html('<p><span class="icon text-middle mdi mdi-check icon-xxs"></span><span>' + msg[result] + '</span></p>');
+							var okMsg = pageName === 'contact' ? msg["OK_CONTACT"] : msg[result];
+							output.html('<p><span class="icon text-middle mdi mdi-check icon-xxs"></span><span>' + okMsg + '</span></p>');
 						} else {
 							output.addClass("active success");
 						}
