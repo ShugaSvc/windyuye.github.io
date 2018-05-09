@@ -2,82 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://www.shuga.io/aboutUs.html</loc>
-        <lastmod>2018-05-08T19:42:08.279Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.366Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/beOurPartner.html</loc>
-        <lastmod>2018-05-08T19:42:08.280Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.369Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/contact.html</loc>
-        <lastmod>2018-05-08T19:42:08.282Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.371Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/faq.html</loc>
-        <lastmod>2018-05-08T19:42:08.283Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.374Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/howItWorks.html</loc>
-        <lastmod>2018-05-08T19:42:08.285Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.375Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/</loc>
-        <lastmod>2018-05-08T19:42:08.289Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.377Z</lastmod>
         <priority>1</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/privacy.html</loc>
-        <lastmod>2018-05-08T19:42:08.289Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.381Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/rewards.html</loc>
-        <lastmod>2018-05-08T19:42:09.064Z</lastmod>
+        <lastmod>2018-05-09T04:23:07.566Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/signUp.html</loc>
-        <lastmod>2018-05-08T19:42:08.290Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.382Z</lastmod>
         <priority>0.64</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/terms.html</loc>
-        <lastmod>2018-05-08T19:42:08.290Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.382Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/edm/2018050205.html</loc>
-        <lastmod>2018-05-08T19:42:08.072Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.164Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/edm/2018050502.html</loc>
-        <lastmod>2018-05-08T19:42:08.073Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.164Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/edm/2018050503.html</loc>
-        <lastmod>2018-05-08T19:42:08.073Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.165Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/edm/2018050504.html</loc>
-        <lastmod>2018-05-08T19:42:08.074Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.165Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/edm/2018050901.html</loc>
-        <lastmod>2018-05-08T19:42:08.074Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.172Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018050902.html</loc>
+        <lastmod>2018-05-09T04:24:41.173Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/products/11.html</loc>
-        <lastmod>2018-05-08T19:42:08.758Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.843Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
@@ -87,57 +92,57 @@
     </url>
     <url>
         <loc>https://www.shuga.io/products/13.html</loc>
-        <lastmod>2018-05-08T19:42:08.758Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.843Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/products/14.html</loc>
-        <lastmod>2018-05-08T19:42:08.758Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.843Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/products/15.html</loc>
-        <lastmod>2018-05-08T19:42:08.758Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.843Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/products/16.html</loc>
-        <lastmod>2018-05-08T19:42:08.758Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.844Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/products/17.html</loc>
-        <lastmod>2018-05-08T19:42:08.758Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.843Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/products/18.html</loc>
-        <lastmod>2018-05-08T19:42:08.758Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.844Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/products/2.html</loc>
-        <lastmod>2018-05-08T19:42:08.758Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.843Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/products/26.html</loc>
-        <lastmod>2018-05-08T19:42:08.759Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.844Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/products/27.html</loc>
-        <lastmod>2018-05-08T19:42:08.759Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.844Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/products/28.html</loc>
-        <lastmod>2018-05-08T19:42:08.759Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.844Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/products/29.html</loc>
-        <lastmod>2018-05-08T19:42:08.758Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.844Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
@@ -147,67 +152,67 @@
     </url>
     <url>
         <loc>https://www.shuga.io/products/30.html</loc>
-        <lastmod>2018-05-08T19:42:08.758Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.844Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/products/31.html</loc>
-        <lastmod>2018-05-08T19:42:08.758Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.844Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/products/32.html</loc>
-        <lastmod>2018-05-08T19:42:08.758Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.844Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/products/33.html</loc>
-        <lastmod>2018-05-08T19:42:08.758Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.843Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/products/34.html</loc>
-        <lastmod>2018-05-08T19:42:08.758Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.843Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/products/35.html</loc>
-        <lastmod>2018-05-08T19:42:08.758Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.843Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/products/36.html</loc>
-        <lastmod>2018-05-08T19:42:08.758Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.843Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/products/37.html</loc>
-        <lastmod>2018-05-08T19:42:08.758Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.843Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/products/4.html</loc>
-        <lastmod>2018-05-08T19:42:08.758Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.843Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/products/5.html</loc>
-        <lastmod>2018-05-08T19:42:08.758Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.843Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/products/6.html</loc>
-        <lastmod>2018-05-08T19:42:08.758Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.843Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/products/7.html</loc>
-        <lastmod>2018-05-08T19:42:08.758Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.843Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/products/8.html</loc>
-        <lastmod>2018-05-08T19:42:08.758Z</lastmod>
+        <lastmod>2018-05-09T04:24:41.843Z</lastmod>
         <priority>0.8</priority>
     </url>
 </urlset>
