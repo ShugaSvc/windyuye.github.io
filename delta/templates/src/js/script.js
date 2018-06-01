@@ -1965,7 +1965,7 @@ $document.ready(function () {
 						}
 					}
 
-					// form.clearForm();
+					form.clearForm();
 
 					if (select.length) {
 						select.select2("val", "");
