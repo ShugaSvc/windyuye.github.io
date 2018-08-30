@@ -50,6 +50,16 @@
     background-position: center;
 }
 
+
+.shugaHighDetail1 {
+    height: 256px;
+    background-image: url('../images/shuga-high-detail-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
 .aboutUsBanner {
     background-image: url('../images/banner-about@2x.png');
     background-repeat: no-repeat;
@@ -80,6 +90,79 @@
     background-size: cover;
     background-position: center 30%;
     height: 350px;
+}
+
+.shugaHighBanner {
+    background-image: url('../images/banner-shuga-high.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 350px;
+}
+
+.shugaHighMobileBanner {
+    background-image: url('../images/banner-shuga-high.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 30%;
+    height: 430px;
+}
+
+.shugaHighDetailBanner {
+    background-image: url('../images/shuga-high-detail-banner@2x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 350px;
+}
+
+.shugaHighDetailMobileBanner {
+    background-image: url('../images/shuga-high-detail-banner@2x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 30%;
+    height: 430px;
+}
+
+
+.caseBackDetailBanner {
+    background-image: url('../images/cash-back-header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 350px;
+}
+
+.caseBackDetailMobileBanner {
+    background-image: url('../images/cash-back-header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 30%;
+    height: 430px;
+}
+
+
+.howToAvoidBanner {
+    background-image: url('../images/howtoavoid-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 350px;
+}
+
+.howToAvoidMobileBanner {
+    background-image: url('../images/howtoavoid-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 30%;
+    height: 430px;
+}
+
+a.shugahigh {
+    color: #ffffff;
+    background-color: #615199;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .testimonials span.preQuota {
