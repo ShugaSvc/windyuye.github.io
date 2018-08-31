@@ -165,6 +165,10 @@ a.shugahigh {
     padding-bottom: 10px;
 }
 
+a.shugahigh:hover {
+    color: #ffffff;
+}
+
 .testimonials span.preQuota {
     font-size: 200%;
     font-weight: bold;
