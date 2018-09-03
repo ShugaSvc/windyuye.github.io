@@ -120,8 +120,9 @@
     background-image: url('../images/shuga-high-mobile-header.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center 30%;
-    height: 430px;
+    background-position: center;
+    height: 350px;
+    width: 375px;
 }
 
 .caseBackDetailBanner {
