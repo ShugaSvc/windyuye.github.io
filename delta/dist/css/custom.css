@@ -117,13 +117,12 @@
 }
 
 .shugaHighDetailMobileBanner {
-    background-image: url('../images/shuga-high-detail-banner@2x.png');
+    background-image: url('../images/shuga-high-mobile-header.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 30%;
     height: 430px;
 }
-
 
 .caseBackDetailBanner {
     background-image: url('../images/cash-back-header.png');
