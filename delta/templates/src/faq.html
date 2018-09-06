@@ -30,7 +30,19 @@
                  alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today.">
         </a>
     </div>
-    @@include('../modules/ga.js')
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113294168-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'UA-113294168-1');
+    </script>
+
     <script src="js/html5shiv.min.js"></script>
     <![endif]-->
 </head>
@@ -38,7 +50,57 @@
 <!-- Page-->
 <div class="page text-center">
     <!-- Page Head-->
-    @@include('../modules/header.html')
+    <header class="page-head slider-menu-position">
+        <!-- RD Navbar Transparent-->
+        <div class="rd-navbar-wrap">
+            <nav class="rd-navbar rd-navbar-default rd-navbar-transparent"
+                 data-md-device-layout="rd-navbar-fixed"
+                 data-anchor-offset="20"
+                 data-lg-device-layout="rd-navbar-static"
+                 data-lg-auto-height="true"
+                 data-md-layout="rd-navbar-fixed"
+                 data-lg-layout="rd-navbar-static"
+                 data-lg-stick-up="true">
+                <div class="rd-navbar-inner">
+                    <!-- RD Navbar Panel-->
+                    <div class="rd-navbar-panel">
+                        <!-- RD Navbar Toggle-->
+                        <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap">
+                            <span></span>
+                        </button>
+                        <!-- Navbar Brand-->
+                        <div class="rd-navbar-brand">
+                            <a href="index.html">
+                                <img style="width: 107px;" src="images/logo.svg" alt="Shuga the shopping rewards app">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="rd-navbar-menu-wrap">
+                        <div class="rd-navbar-nav-wrap">
+                            <div class="rd-navbar-mobile-scroll">
+                                <!-- Navbar Brand Mobile-->
+                                <div class="rd-navbar-mobile-brand">
+                                    <a href="index.html">
+                                        <img style="width: 99px;" src="images/logo.svg"
+                                             alt="Shuga the shopping rewards app">
+                                    </a>
+                                </div>
+                                <!-- RD Navbar Nav-->
+                                <ul class="rd-navbar-nav">
+                                    <li><a href="https://shuga.app.link/eHiPsAG8LJ">Download now</a></li>
+                                    <li><a href="aboutUs.html">About Shuga</a></li>
+                                    <li><a href="howItWorks.html">How it works</a></li>
+                                    <li><a href="beOurPartner.html">Be our partner</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="rewards.html">Rewards</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
 
     <!-- Page Contents-->
     <main class="page-content">
@@ -75,11 +137,11 @@
                                 </li>
                                 <li>My receipt is too long for me to capture.</li>
                                 <li>I cannot register with my email? Please help?</li>
-                                <li>How much can I earn from referring my friends?</li>
+                                <li>How can I refer a friend to join Shuga?</li>
+                                <li>How can I receive my Bonus Shuga from referring friends?</li>
                                 <li>Why didn't I get any Bonus Shuga when my friend has signed up and started visiting
                                     stores and snapping Partner Store's receipt?
                                 </li>
-                                <li>Why don't you allow cash back?</li>
                                 <li>Can I tell you what I like to redeem so that you can list it under Rewards for me to
                                     redeem?
                                 </li>
@@ -277,15 +339,28 @@
                                     </p>
                                 </div>
 
-                                <!--How much can I earn from referring my friends?-->
+                                <!--How can I refer a friend to join Shuga?-->
                                 <div>
-                                    <p>Referring your friends can help you earn a lot of Shuga!</p>
-                                    <p>Refer friends and family through the application and when they sign up you can
-                                        earn 180 Bonus Shuga. Wait, it gets better, for the next month every time
-                                        your referred friend earns Shuga by walking into a Shuga partner store or scans
-                                        products for Shuga you will also be rewarded 30% of their reward. For the times
-                                        they snap a partner store receipt, you’ll get 10% of their reward. There is no
-                                        limit on the number of friends you can refer so share the love!</p>
+                                    <p>There are many ways you can refer a friend! It can be done via your messaging
+                                        apps, social media accounts or simply by sharing a unique link just to name a
+                                        few. Once your referred friend receives the link, they must click on it to be
+                                        re-directed to download the app. Once they have successfully downloaded and
+                                        registered for an account, an email confirmation will be sent to the registered
+                                        email for verification.</p>
+                                </div>
+
+                                <!--How can I receive my Bonus Shuga from referring friends?-->
+                                <div>
+                                    <p>Referring your friends can help you earn a lot of Shuga! To receive your Bonus
+                                        Shuga, your referred friends will be required to verify by clicking on the
+                                        Verification Button. Bonus Shuga will automatically be credited into your Bonus
+                                        account once your friend completes the verification. No Bonus Shuga will be
+                                        credited if your referred friend fails to verify their email.</p>
+                                    <p>Wait, it gets better, for the next month every time your referred friend earns
+                                        Shuga by walking into a Shuga partner store or scans products for Shuga you will
+                                        also be rewarded 30% of their reward. For the times they snap a partner store
+                                        receipt, you’ll get 10% of their reward. There is no limit on the number of
+                                        friends you can refer so share the love!</p>
                                 </div>
 
                                 <!--Why didn't I get any Bonus Shuga when my friend has signed up and started visiting stores and snapping Partner Store's receipt?-->
@@ -295,14 +370,6 @@
                                         time account. If your friend has a previous account, it will not be eligible for
                                         the referral Bonus Shuga. Please check our Terms and Conditions for more
                                         information!</p>
-                                </div>
-
-                                <!--Why don't you allow cash back?-->
-                                <div>
-                                    <p>We aim to make your money work harder for you! Our team works closely with
-                                        merchants who list their items or vouchers to give you stronger discounts. So
-                                        you can redeem products at great discount prices! You deserve the best
-                                        benefits.</p>
                                 </div>
 
                                 <!--Can I tell you what I like to redeem so that you can list it under Rewards for me to redeem?-->
@@ -341,7 +408,37 @@
 
     <!-- Page Footer-->
     <!-- Default footer-->
-    @@include('../modules/footer.html')
+    <footer class="section-relative section-top-20 section-bottom-20 page-footer bg-gray-base context-dark">
+        <div class="shell">
+            <div class="range range-sm-center text-lg-left">
+                <div class="cell-sm-8 cell-md-12">
+                    <div class="range range-xs-center">
+                        <div class="cell-xs-10 offset-xs-top-0 text-xs-center text-md-center cell-md-2 cell-lg-1_5">
+                            <a href="aboutUs.html">About Shuga</a>
+                        </div>
+                        <div class="cell-xs-10 offset-top-41 offset-xs-top-0 text-xs-center text-md-center cell-md-2 cell-lg-1_5">
+                            <a href="https://shuga.app.link/eHiPsAG8LJ">Download now</a>
+                        </div>
+                        <div class="cell-xs-10 offset-top-41 offset-xs-top-0 text-xs-center text-md-center cell-md-2 cell-lg-1_5">
+                            <a href="contact.html">Contact us</a>
+                        </div>
+                        <div class="cell-xs-10 offset-top-41 offset-xs-top-0 text-xs-center text-md-center cell-md-2 cell-lg-1">
+                            <a href="faq.html">FAQ</a>
+                        </div>
+                        <div class="cell-xs-10 offset-top-41 offset-xs-top-0 text-xs-center text-md-center cell-md-2 cell-lg-1_5">
+                            <a href="beOurPartner.html">Be our partner</a>
+                        </div>
+                        <div class="cell-xs-10 offset-top-41 offset-xs-top-0 text-xs-center text-md-center cell-md-2 cell-lg-1_5">
+                            <a href="privacy.html">Privacy policy</a>
+                        </div>
+                        <div class="cell-xs-10 offset-top-41 offset-xs-top-0 text-xs-center text-md-center cell-md-2 cell-lg-1_5">
+                            <a href="terms.html">Terms & Conditions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </div>
 <!-- JavaScript-->
 <script src="js/core.min.js"></script>
