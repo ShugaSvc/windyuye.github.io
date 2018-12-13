@@ -824,13 +824,8 @@
 <script src="js/core.min.js"></script>
 <script src="js/script.js"></script>
 <script language="JavaScript">
-    function getHashValue(key) {
-        var matches = location.hash.match(new RegExp(key + '=([^&]*)'));
-        return matches ? matches[1] : null;
-    }
-
     var today = new Date();
-    var dd = parseInt(getHashValue('secreteDate')) || today.getDate();
+    var dd = today.getDate();
     var mm = today.getMonth() + 1;
 
     if (mm === 12) {
