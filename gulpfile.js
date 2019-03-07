@@ -81,7 +81,7 @@ function toNumberWithCommas(number) {
 }
 
 var fetchRedeemProducts = function () {
-    return fetch('https://api.shuga.io/redeemProduct?page=0&pageSize=1000').then(function (res) {
+    return fetch('https://api.shuga.io/redeemProduct?page=0&pageSize=1000&type=all').then(function (res) {
         return res.json();
     }).then(function (json) {
         return json;
