@@ -33,15 +33,15 @@ gulp.task('build-sitemap', function () {
         .pipe(gulp.dest('./delta/dist/', {overwrite: true}));
 });
 
-gulp.task('compile-template', function() {
+gulp.task('compile-template', function () {
     return gulp.src(['./delta/templates/src/*.html', "!./delta/templates/src/rewards.html"])
         .pipe(fileinclude())
         .pipe(gulp.dest('./delta/dist/', {overwrite: true}));
 });
 
-gulp.task('build-reward-page', function() {
-    return fetchRedeemProducts().then(function(redeemProducts) {
-        var rewardItems = redeemProducts.results.map(function(redeemProduct) {
+gulp.task('build-reward-page', function () {
+    return fetchRedeemProducts().then(function (redeemProducts) {
+        var rewardItems = redeemProducts.results.map(function (redeemProduct) {
             return redeemProduct.id;
         });
         return gulp.src(['./delta/templates/src/rewards.html'])
@@ -52,17 +52,16 @@ gulp.task('build-reward-page', function() {
             }))
             .pipe(gulp.dest('./delta/dist/', {overwrite: true}));
     });
-
+    
 });
 
-gulp.task('build-reward-items', function() {
-    return fetchRedeemProducts().then(function(redeemProducts) {
-        var promises = redeemProducts.results.map(function(redeemProduct) {
-            // console.log(redeemProduct.name);
+gulp.task('build-reward-items', function () {
+    return fetchRedeemProducts().then(function (redeemProducts) {
+        var promises = redeemProducts.results.map(function (redeemProduct) {
             var originalShuga = Number(redeemProduct.price) * 200;
             var shuga = Number(redeemProduct.shuga);
             redeemProduct.originalShuga = originalShuga !== shuga ? toNumberWithCommas(originalShuga) : null;
-            redeemProduct.price = toNumberWithCommas(redeemProduct.price);
+            redeemProduct.price = toNumberWithCommas(redeemProduct.displayPrice || redeemProduct.price);
             redeemProduct.shuga = toNumberWithCommas(redeemProduct.shuga);
             redeemProduct.htmlUrl = 'products/' + redeemProduct.id + '.html';
             return gulp.src(['./delta/templates/modules/rewardItem.html'])
@@ -81,15 +80,15 @@ function toNumberWithCommas(number) {
     return number ? number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") : "0";
 }
 
-var fetchRedeemProducts = function() {
-    return fetch('https://api.shuga.io/redeemProduct?page=0&pageSize=1000').then(function(res) {
+var fetchRedeemProducts = function () {
+    return fetch('https://api.shuga.io/redeemProduct?page=0&pageSize=1000').then(function (res) {
         return res.json();
     }).then(function (json) {
         return json;
     });
 }
 
-gulp.task('copy-files', function() {
+gulp.task('copy-files', function () {
     return gulp.src(['./delta/templates/src/**/*', "!./delta/templates/src/*"])
         .pipe(gulp.dest('./delta/dist/', {overwrite: true}));
 });
