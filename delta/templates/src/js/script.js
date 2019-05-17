@@ -1838,8 +1838,8 @@ $document.ready(function () {
     if (plugins.rdMailForm.length) {
         var i, j, k,
             msg = {
-                'OK': 'Your requiest has be submitted succssfully and we\'ll get back to you as quickly as possible!',
-                'OK_CONTACT': 'Your requiest has be submitted succssfully and we\'ll get back to you as quickly as possible!',
+                'OK': 'Your request has be submitted successfully and we\'ll get back to you as quickly as possible!',
+                'OK_CONTACT': 'Your request has be submitted successfully and we\'ll get back to you as quickly as possible!',
                 'MF000': 'Successfully sent!',
                 'MF001': 'Recipients are not set!',
                 'MF002': 'Form will not work locally!',

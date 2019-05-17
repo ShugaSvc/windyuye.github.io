@@ -1838,8 +1838,8 @@ $document.ready(function () {
     if (plugins.rdMailForm.length) {
         var i, j, k,
             msg = {
-                'OK': 'We have received your submission. Our sales team will contact you shortly.',
-                'OK_CONTACT': 'We have received your submission. Our service team will contact you within 5 working days.',
+                'OK': 'Your request has be submitted successfully and we\'ll get back to you as quickly as possible!',
+                'OK_CONTACT': 'Your request has be submitted successfully and we\'ll get back to you as quickly as possible!',
                 'MF000': 'Successfully sent!',
                 'MF001': 'Recipients are not set!',
                 'MF002': 'Form will not work locally!',
