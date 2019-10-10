@@ -7,7 +7,8 @@ var fetch = require('node-fetch');
 var rename = require('gulp-rename');
 
 gulp.task('build', function (cb) {
-    runSequence('copy-files', 'compile-template', 'build-reward-items', 'build-reward-page', 'build-sitemap', cb);
+    runSequence('copy-files', 'build-sitemap', cb);
+//    runSequence('copy-files', 'compile-template', 'build-reward-items', 'build-reward-page', 'build-sitemap', cb);
 });
 
 gulp.task('build-sitemap', function () {
@@ -89,7 +90,7 @@ var fetchRedeemProducts = function () {
 }
 
 gulp.task('copy-files', function () {
-    return gulp.src(['./delta/templates/src/**/*', "!./delta/templates/src/*"])
+    return gulp.src(['./delta/src/**/*'])
         .pipe(gulp.dest('./delta/dist/', {overwrite: true}));
 });
 
