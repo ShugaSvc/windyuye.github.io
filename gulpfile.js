@@ -7,7 +7,7 @@ var fetch = require('node-fetch');
 var rename = require('gulp-rename');
 
 gulp.task('build', function (cb) {
-    runSequence('copy-files', 'build-sitemap', cb);
+    runSequence('copy-files', 'copy-edm-files', 'copy-edm-images', 'build-sitemap', cb);
 //    runSequence('copy-files', 'compile-template', 'build-reward-items', 'build-reward-page', 'build-sitemap', cb);
 });
 
@@ -93,6 +93,18 @@ gulp.task('copy-files', function () {
     return gulp.src(['./delta/src/**/*'])
         .pipe(gulp.dest('./delta/dist/', {overwrite: true}));
 });
+
+gulp.task('copy-edm-files', function () {
+    return gulp.src(['./delta/templates/src/edm/**/*'])
+        .pipe(gulp.dest('./delta/dist/edm', {overwrite: true}));
+});
+
+gulp.task('copy-edm-images', function () {
+    return gulp.src(['./delta/templates/src/images/edm/**/*'])
+        .pipe(gulp.dest('./delta/dist/images/edm', {overwrite: true}));
+});
+
+
 
 gulp.task('clean', function () {
     del('./delta/dist');
