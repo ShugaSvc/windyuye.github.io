@@ -2,77 +2,267 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://www.shuga.io/aboutus.html</loc>
-        <lastmod>2019-10-10T10:24:14.882Z</lastmod>
+        <lastmod>2019-10-10T10:28:44.964Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/contact.html</loc>
-        <lastmod>2019-10-10T10:24:14.894Z</lastmod>
+        <lastmod>2019-10-10T10:28:44.972Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/faq.html</loc>
-        <lastmod>2019-10-10T10:24:14.894Z</lastmod>
+        <lastmod>2019-10-10T10:28:44.972Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/howitworks.html</loc>
-        <lastmod>2019-10-10T10:24:14.894Z</lastmod>
+        <lastmod>2019-10-10T10:28:44.972Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/</loc>
-        <lastmod>2019-10-10T10:24:14.894Z</lastmod>
+        <lastmod>2019-10-10T10:28:44.972Z</lastmod>
         <priority>1</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/media.html</loc>
-        <lastmod>2019-10-10T10:24:14.894Z</lastmod>
+        <lastmod>2019-10-10T10:28:44.976Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/ndp2019howtouse.html</loc>
-        <lastmod>2019-10-10T10:24:14.894Z</lastmod>
+        <lastmod>2019-10-10T10:28:44.976Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/partner.html</loc>
-        <lastmod>2019-10-10T10:24:14.898Z</lastmod>
+        <lastmod>2019-10-10T10:28:44.976Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/privacy.html</loc>
-        <lastmod>2019-10-10T10:24:14.898Z</lastmod>
+        <lastmod>2019-10-10T10:28:44.976Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/rewards.html</loc>
-        <lastmod>2019-10-10T10:24:14.898Z</lastmod>
+        <lastmod>2019-10-10T10:28:44.976Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/shopwithus.html</loc>
-        <lastmod>2019-10-10T10:24:14.898Z</lastmod>
+        <lastmod>2019-10-10T10:28:44.976Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/terms.html</loc>
-        <lastmod>2019-10-10T10:24:14.898Z</lastmod>
+        <lastmod>2019-10-10T10:28:44.976Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/ty.html</loc>
-        <lastmod>2019-10-10T10:24:14.898Z</lastmod>
+        <lastmod>2019-10-10T10:28:44.976Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018050205.html</loc>
+        <lastmod>2019-10-10T10:28:45.164Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018050502.html</loc>
+        <lastmod>2019-10-10T10:28:45.164Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018050503.html</loc>
+        <lastmod>2019-10-10T10:28:45.164Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018050504.html</loc>
+        <lastmod>2019-10-10T10:28:45.168Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018050901.html</loc>
+        <lastmod>2019-10-10T10:28:45.168Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018050902.html</loc>
+        <lastmod>2019-10-10T10:28:45.168Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018050903.html</loc>
+        <lastmod>2019-10-10T10:28:45.168Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018050904.html</loc>
+        <lastmod>2019-10-10T10:28:45.168Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018050905.html</loc>
+        <lastmod>2019-10-10T10:28:45.168Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018050906.html</loc>
+        <lastmod>2019-10-10T10:28:45.168Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018050907.html</loc>
+        <lastmod>2019-10-10T10:28:45.168Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018051701.html</loc>
+        <lastmod>2019-10-10T10:28:45.168Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018052801.html</loc>
+        <lastmod>2019-10-10T10:28:45.168Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018052802.html</loc>
+        <lastmod>2019-10-10T10:28:45.168Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018052803.html</loc>
+        <lastmod>2019-10-10T10:28:45.168Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018052804.html</loc>
+        <lastmod>2019-10-10T10:28:45.168Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018052805.html</loc>
+        <lastmod>2019-10-10T10:28:45.168Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018052806.html</loc>
+        <lastmod>2019-10-10T10:28:45.168Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018083101.html</loc>
+        <lastmod>2019-10-10T10:28:45.168Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018110501.html</loc>
+        <lastmod>2019-10-10T10:28:45.172Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018110801.html</loc>
+        <lastmod>2019-10-10T10:28:45.172Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018111001.html</loc>
+        <lastmod>2019-10-10T10:28:45.172Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018111002.html</loc>
+        <lastmod>2019-10-10T10:28:45.172Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018111003.html</loc>
+        <lastmod>2019-10-10T10:28:45.172Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018111401.html</loc>
+        <lastmod>2019-10-10T10:28:45.172Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018113001.html</loc>
+        <lastmod>2019-10-10T10:28:45.172Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018113002.html</loc>
+        <lastmod>2019-10-10T10:28:45.172Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2018121401.html</loc>
+        <lastmod>2019-10-10T10:28:45.176Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2019010201.html</loc>
+        <lastmod>2019-10-10T10:28:45.176Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2019020101.html</loc>
+        <lastmod>2019-10-10T10:28:45.176Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2019021801.html</loc>
+        <lastmod>2019-10-10T10:28:45.176Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2019031501.html</loc>
+        <lastmod>2019-10-10T10:28:45.176Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2019060601.html</loc>
+        <lastmod>2019-10-10T10:28:45.176Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2019060602.html</loc>
+        <lastmod>2019-10-10T10:28:45.176Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2019060603.html</loc>
+        <lastmod>2019-10-10T10:28:45.176Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2019060605.html</loc>
+        <lastmod>2019-10-10T10:28:45.176Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2019060606.html</loc>
+        <lastmod>2019-10-10T10:28:45.176Z</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shuga.io/edm/2019073001.html</loc>
+        <lastmod>2019-10-10T10:28:45.176Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/edm/2019082701.html</loc>
-        <lastmod>2019-10-10T10:17:08.694Z</lastmod>
+        <lastmod>2019-10-10T10:28:45.176Z</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.shuga.io/edm/2019100801.html</loc>
-        <lastmod>2019-10-10T10:17:08.694Z</lastmod>
+        <lastmod>2019-10-10T10:28:45.176Z</lastmod>
         <priority>0.8</priority>
     </url>
 </urlset>
