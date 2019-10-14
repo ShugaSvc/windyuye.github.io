@@ -675,37 +675,11 @@ No results? We won’t take your money.
   <script src="assets/slidervideo/script.js"></script>
   <script src="assets/mbr-tabs/mbr-tabs.js"></script>
   <script src="assets/mbr-flip-card/mbr-flip-card.js"></script>
-  <script src="assets/partner/partner.js"></script>
   <script src="assets/js/counter.js"></script>
   <script src="assets/theme/js/script.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-
-  <script>
-    function countTo(json,field) {
-      let c = $("h4#" + field);
-      let w = c.innerWidth();
-      let formatter = function(value, options) {
-        let fontSize = w/6;
-        if (value > 10000000000) { 
-          fontSize = w/7.3;
-        } else if (value > 1000000000) { 
-          fontSize = w/6.7;
-        } 
-        return '<span style="font-size: '+fontSize+'px">' + value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',') + "</span>";
-      };
-      c.data("to",json[field]).countTo({formatter});
-    }
-    $( document ).ready( function () {
-      $.ajax({
-        dataType: "json",
-        url: 'data/index-numbers.json?_=' + new Date().getTime()
-      }).done(function(json) {
-         countTo(json,"receipt");
-         countTo(json,"receiptTotal");
-         countTo(json,"walkIn");
-      })
-    }); 
-  </script>
+  <script src="assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>
+  <script src="assets/slick/slick.min.js"></script>
+  <script src="assets/js/partner.js"></script>
   <!--
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>-->
     <input name="animation" type="hidden">
