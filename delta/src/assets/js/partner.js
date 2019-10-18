@@ -16,7 +16,7 @@ function countTo(json,field) {
 $(document).ready(function(){
     $.ajax({
       dataType: "json",
-      url: 'data/index-numbers.json?_=' + new Date().getTime()
+      url: 'data/partner-numbers.json?_=' + new Date().getTime()
     }).done(function(json) {
        countTo(json,"receipt");
        countTo(json,"receiptTotal");
