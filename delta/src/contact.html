@@ -25,7 +25,7 @@
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/animatecss/animate.min.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link href="assets/fonts/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/fonts/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   <script>
@@ -48,9 +48,6 @@
 </head>
 <body>
   <section class="menu cid-qRm5ySonZG" once="menu" id="menu1-e">
-
-    
-
     <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-toggleable-sm bg-color transparent">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <div class="hamburger">
@@ -107,7 +104,7 @@
         <div class="row justify-content-center">
             <div class="media-container-column col-lg-8" data-form-type="formoid">
                 <!---Formbuilder Form--->
-               	<form action="https://api.shuga.io/user/contactUs" class="mbr-form form-with-styler shuga-form" method="post">
+               	<form id="contactus" action="https://api.shuga.io/user/contactUs" class="mbr-form form-with-styler shuga-form" method="post">
                     <div class="row">
                         
                         <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
@@ -115,12 +112,12 @@
                     </div>
                     <div class="dragArea row">
                         <div class="col-md-4  form-group" data-for="name-form1-2m">
-                            <label for="name-form1-2m" class="form-control-label mbr-fonts-style display-7">Full name</label>
+                            <label for="name-form1-2m" class="form-control-label mbr-fonts-style display-7">Full name*</label>
 		
                             <input type="text" name="name" data-form-field="Name" required="required" class="form-control display-7" id="name-form1-2m">
                         </div>
                         <div class="col-md-4  form-group" data-for="email-form1-2m">
-                            <label for="email-form1-2m" class="form-control-label mbr-fonts-style display-7">Email</label>
+                            <label for="email-form1-2m" class="form-control-label mbr-fonts-style display-7">Email*</label>
                             <input type="email" name="email" data-form-field="Email" required="required" class="form-control display-7" id="email-form1-2m">
                         </div>
                         <div data-for="entry.269414404" class="col-md-4  form-group">
